@@ -1,5 +1,4 @@
-body
-{
+body {
     color: blue;
     text-align: center;
     font-family: Arial;
@@ -7,15 +6,26 @@ body
     margin: 0;
     padding: 0;
 }
-#container
-{
+
+#container {
     width: 70%;
     padding: 1em;
     text-align: left;
     border: 1px solid #ddd;
     margin: 0 auto;
 }
-#container h1
-{
+
+#container h1 {
     font-size: 20px;
+}
+
+#post {
+    padding: 1em;
+}
+
+#footer {
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
 }
